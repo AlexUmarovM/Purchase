@@ -1,0 +1,40 @@
+PODS:
+  - OpenSSL-Apple (1.1.1g.6)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyBeaver (1.9.1)
+  - TunnelKit (2.2.7):
+    - TunnelKit/Protocols/OpenVPN (= 2.2.7)
+  - TunnelKit/AppExtension (2.2.7):
+    - SwiftyBeaver
+    - TunnelKit/Core
+  - TunnelKit/Core (2.2.7):
+    - SwiftyBeaver
+  - TunnelKit/Protocols/OpenVPN (2.2.7):
+    - OpenSSL-Apple (~> 1.1.1g.6)
+    - TunnelKit/AppExtension
+    - TunnelKit/Core
+
+DEPENDENCIES:
+  - SnapKit
+  - SVProgressHUD
+  - TunnelKit
+
+SPEC REPOS:
+  trunk:
+    - OpenSSL-Apple
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyBeaver
+    - TunnelKit
+
+SPEC CHECKSUMS:
+  OpenSSL-Apple: c9c1b9c5b2b1fc4e1758fc5f0836b58ae7fd8183
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+  TunnelKit: cbd063b8b6f4f6a182cf48e646ff35cb2365bf91
+
+PODFILE CHECKSUM: 484bbc47b30cec7edb9e250930d69cdbf4aff2b4
+
+COCOAPODS: 1.9.3

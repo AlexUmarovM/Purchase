@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBCA59A07AABF30EAE9701A3 /* Pods_Purchase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E03BFB5B301D82183F03EE /* Pods_Purchase.framework */; };
 		FA93E54D24C9829F00D6EB01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E54C24C9829F00D6EB01 /* AppDelegate.swift */; };
 		FA93E54F24C9829F00D6EB01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E54E24C9829F00D6EB01 /* SceneDelegate.swift */; };
-		FA93E55124C9829F00D6EB01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E55024C9829F00D6EB01 /* ViewController.swift */; };
 		FA93E55424C9829F00D6EB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA93E55224C9829F00D6EB01 /* Main.storyboard */; };
 		FA93E55624C982A100D6EB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA93E55524C982A100D6EB01 /* Assets.xcassets */; };
 		FA93E55924C982A100D6EB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA93E55724C982A100D6EB01 /* LaunchScreen.storyboard */; };
+		FA93E56124C982E600D6EB01 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FA93E56024C982E600D6EB01 /* Podfile */; };
+		FA93E56A24C9837600D6EB01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56324C9837600D6EB01 /* ViewController.swift */; };
+		FA93E56B24C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56424C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift */; };
+		FA93E56C24C9837600D6EB01 /* PurchaseSubscriptionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56524C9837600D6EB01 /* PurchaseSubscriptionOptionsView.swift */; };
+		FA93E56D24C9837600D6EB01 /* PurchaseSubscriptionPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56624C9837600D6EB01 /* PurchaseSubscriptionPriceView.swift */; };
+		FA93E56E24C9837600D6EB01 /* PurchaseSubscriptionTermsAndDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56724C9837600D6EB01 /* PurchaseSubscriptionTermsAndDetailsView.swift */; };
+		FA93E56F24C9837600D6EB01 /* PurchaseSubscriptionChoosePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56824C9837600D6EB01 /* PurchaseSubscriptionChoosePlanView.swift */; };
+		FA93E57024C9837600D6EB01 /* PurchaseSubscriptionAdvantagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E56924C9837600D6EB01 /* PurchaseSubscriptionAdvantagesView.swift */; };
+		FA93E57224C9839C00D6EB01 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E57124C9839C00D6EB01 /* UIView+Extensions.swift */; };
+		FA93E57624C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E57524C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7E184880ED60DB793F5CC6 /* Pods-Purchase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purchase.release.xcconfig"; path = "Target Support Files/Pods-Purchase/Pods-Purchase.release.xcconfig"; sourceTree = "<group>"; };
+		31E03BFB5B301D82183F03EE /* Pods_Purchase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purchase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C7401A858B2A0616CFA842 /* Pods-Purchase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purchase.debug.xcconfig"; path = "Target Support Files/Pods-Purchase/Pods-Purchase.debug.xcconfig"; sourceTree = "<group>"; };
 		FA93E54924C9829F00D6EB01 /* Purchase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purchase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA93E54C24C9829F00D6EB01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA93E54E24C9829F00D6EB01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA93E55024C9829F00D6EB01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA93E55324C9829F00D6EB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA93E55524C982A100D6EB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA93E55824C982A100D6EB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA93E55A24C982A100D6EB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA93E56024C982E600D6EB01 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FA93E56324C9837600D6EB01 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA93E56424C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionOfferView.swift; sourceTree = "<group>"; };
+		FA93E56524C9837600D6EB01 /* PurchaseSubscriptionOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionOptionsView.swift; sourceTree = "<group>"; };
+		FA93E56624C9837600D6EB01 /* PurchaseSubscriptionPriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionPriceView.swift; sourceTree = "<group>"; };
+		FA93E56724C9837600D6EB01 /* PurchaseSubscriptionTermsAndDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionTermsAndDetailsView.swift; sourceTree = "<group>"; };
+		FA93E56824C9837600D6EB01 /* PurchaseSubscriptionChoosePlanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChoosePlanView.swift; sourceTree = "<group>"; };
+		FA93E56924C9837600D6EB01 /* PurchaseSubscriptionAdvantagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionAdvantagesView.swift; sourceTree = "<group>"; };
+		FA93E57124C9839C00D6EB01 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "../../VPNclients/VPNClient/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FA93E57524C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionPeriodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCA59A07AABF30EAE9701A3 /* Pods_Purchase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0E7ACBA53074CF3011AD8CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C7401A858B2A0616CFA842 /* Pods-Purchase.debug.xcconfig */,
+				0C7E184880ED60DB793F5CC6 /* Pods-Purchase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF213FE06DCD61F3E22FBDFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E03BFB5B301D82183F03EE /* Pods_Purchase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA93E54024C9829F00D6EB01 = {
 			isa = PBXGroup;
 			children = (
+				FA93E56024C982E600D6EB01 /* Podfile */,
 				FA93E54B24C9829F00D6EB01 /* Purchase */,
 				FA93E54A24C9829F00D6EB01 /* Products */,
+				C0E7ACBA53074CF3011AD8CA /* Pods */,
+				EF213FE06DCD61F3E22FBDFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +101,30 @@
 			children = (
 				FA93E54C24C9829F00D6EB01 /* AppDelegate.swift */,
 				FA93E54E24C9829F00D6EB01 /* SceneDelegate.swift */,
-				FA93E55024C9829F00D6EB01 /* ViewController.swift */,
+				FA93E56224C9837600D6EB01 /* View */,
 				FA93E55224C9829F00D6EB01 /* Main.storyboard */,
 				FA93E55524C982A100D6EB01 /* Assets.xcassets */,
 				FA93E55724C982A100D6EB01 /* LaunchScreen.storyboard */,
 				FA93E55A24C982A100D6EB01 /* Info.plist */,
+				FA93E57124C9839C00D6EB01 /* UIView+Extensions.swift */,
 			);
 			path = Purchase;
+			sourceTree = "<group>";
+		};
+		FA93E56224C9837600D6EB01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA93E56324C9837600D6EB01 /* ViewController.swift */,
+				FA93E56424C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift */,
+				FA93E56524C9837600D6EB01 /* PurchaseSubscriptionOptionsView.swift */,
+				FA93E57524C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift */,
+				FA93E56624C9837600D6EB01 /* PurchaseSubscriptionPriceView.swift */,
+				FA93E56724C9837600D6EB01 /* PurchaseSubscriptionTermsAndDetailsView.swift */,
+				FA93E56824C9837600D6EB01 /* PurchaseSubscriptionChoosePlanView.swift */,
+				FA93E56924C9837600D6EB01 /* PurchaseSubscriptionAdvantagesView.swift */,
+			);
+			name = View;
+			path = ../../VPNclients/VPNClient/Features/MainScreen/ConnectScreen/VPNUKConnect/PurchaseSubscription/View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA93E55D24C982A100D6EB01 /* Build configuration list for PBXNativeTarget "Purchase" */;
 			buildPhases = (
+				C76317DF1C4BA8708E862247 /* [CP] Check Pods Manifest.lock */,
 				FA93E54524C9829F00D6EB01 /* Sources */,
 				FA93E54624C9829F00D6EB01 /* Frameworks */,
 				FA93E54724C9829F00D6EB01 /* Resources */,
+				299AB0A32B180CD9BDFF30B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +189,71 @@
 			files = (
 				FA93E55924C982A100D6EB01 /* LaunchScreen.storyboard in Resources */,
 				FA93E55624C982A100D6EB01 /* Assets.xcassets in Resources */,
+				FA93E56124C982E600D6EB01 /* Podfile in Resources */,
 				FA93E55424C9829F00D6EB01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		299AB0A32B180CD9BDFF30B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Purchase/Pods-Purchase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Purchase/Pods-Purchase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Purchase/Pods-Purchase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76317DF1C4BA8708E862247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purchase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA93E54524C9829F00D6EB01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA93E55124C9829F00D6EB01 /* ViewController.swift in Sources */,
 				FA93E54D24C9829F00D6EB01 /* AppDelegate.swift in Sources */,
+				FA93E57624C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift in Sources */,
+				FA93E56F24C9837600D6EB01 /* PurchaseSubscriptionChoosePlanView.swift in Sources */,
+				FA93E57224C9839C00D6EB01 /* UIView+Extensions.swift in Sources */,
+				FA93E56A24C9837600D6EB01 /* ViewController.swift in Sources */,
+				FA93E57024C9837600D6EB01 /* PurchaseSubscriptionAdvantagesView.swift in Sources */,
+				FA93E56B24C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift in Sources */,
+				FA93E56D24C9837600D6EB01 /* PurchaseSubscriptionPriceView.swift in Sources */,
 				FA93E54F24C9829F00D6EB01 /* SceneDelegate.swift in Sources */,
+				FA93E56C24C9837600D6EB01 /* PurchaseSubscriptionOptionsView.swift in Sources */,
+				FA93E56E24C9837600D6EB01 /* PurchaseSubscriptionTermsAndDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +395,13 @@
 		};
 		FA93E55E24C982A100D6EB01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C7401A858B2A0616CFA842 /* Pods-Purchase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VM7C6TM4;
 				INFOPLIST_FILE = Purchase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +415,13 @@
 		};
 		FA93E55F24C982A100D6EB01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7E184880ED60DB793F5CC6 /* Pods-Purchase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VM7C6TM4;
 				INFOPLIST_FILE = Purchase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
