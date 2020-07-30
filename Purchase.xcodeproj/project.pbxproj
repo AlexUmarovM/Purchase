@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BBCA59A07AABF30EAE9701A3 /* Pods_Purchase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E03BFB5B301D82183F03EE /* Pods_Purchase.framework */; };
+		FA02C2A324CD96AD00D907F2 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02C2A224CD96AD00D907F2 /* Style.swift */; };
 		FA2D451224C9FF5700301CC2 /* PurchaseSubscriptionChoosePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D451124C9FF5700301CC2 /* PurchaseSubscriptionChoosePlanView.swift */; };
 		FA2D451424CAE9D300301CC2 /* PurchaseSubscriptionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D451324CAE9D300301CC2 /* PurchaseSubscriptionOptionView.swift */; };
 		FA2D451624CB1B4400301CC2 /* PurchaseSubscriptionChooseCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D451524CB1B4400301CC2 /* PurchaseSubscriptionChooseCountryView.swift */; };
@@ -32,6 +33,7 @@
 		0C7E184880ED60DB793F5CC6 /* Pods-Purchase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purchase.release.xcconfig"; path = "Target Support Files/Pods-Purchase/Pods-Purchase.release.xcconfig"; sourceTree = "<group>"; };
 		31E03BFB5B301D82183F03EE /* Pods_Purchase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purchase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C7401A858B2A0616CFA842 /* Pods-Purchase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purchase.debug.xcconfig"; path = "Target Support Files/Pods-Purchase/Pods-Purchase.debug.xcconfig"; sourceTree = "<group>"; };
+		FA02C2A224CD96AD00D907F2 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		FA2D451124C9FF5700301CC2 /* PurchaseSubscriptionChoosePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChoosePlanView.swift; sourceTree = "<group>"; };
 		FA2D451324CAE9D300301CC2 /* PurchaseSubscriptionOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionOptionView.swift; sourceTree = "<group>"; };
 		FA2D451524CB1B4400301CC2 /* PurchaseSubscriptionChooseCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChooseCountryView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		FA93E56224C9837600D6EB01 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA02C2A224CD96AD00D907F2 /* Style.swift */,
 				FA93E56324C9837600D6EB01 /* ViewController.swift */,
 				FA2D451524CB1B4400301CC2 /* PurchaseSubscriptionChooseCountryView.swift */,
 				FA93E56424C9837600D6EB01 /* PurchaseSubscriptionOfferView.swift */,
@@ -255,6 +258,7 @@
 				FA93E54D24C9829F00D6EB01 /* AppDelegate.swift in Sources */,
 				FA93E57624C9EC6700D6EB01 /* PurchaseSubscriptionPeriodView.swift in Sources */,
 				FA2D451224C9FF5700301CC2 /* PurchaseSubscriptionChoosePlanView.swift in Sources */,
+				FA02C2A324CD96AD00D907F2 /* Style.swift in Sources */,
 				FA93E56F24C9837600D6EB01 /* PurchaseSubscriptionChoosePlansView.swift in Sources */,
 				FA2D451624CB1B4400301CC2 /* PurchaseSubscriptionChooseCountryView.swift in Sources */,
 				FA93E57224C9839C00D6EB01 /* UIView+Extensions.swift in Sources */,
